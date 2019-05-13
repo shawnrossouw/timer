@@ -1,0 +1,49 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 26, 26);
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, purple, red, hotpink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .clocks{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, purple, red, hotpink);
+  }
+  
+  .clock {
+    margin-bottom: .75em;
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all .25s ease;  
+    color: hotpink;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 1em;
+    background: rgb(39, 39, 39);
+    margin: 2px;
+   
+  }
+
+  .clock:hover{
+    transform: scale(1.02);
+    box-shadow: inset 0 0 10px #000000;
+  }
